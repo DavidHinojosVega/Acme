@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('tipo_de_acceso');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
-            $table->string('contraseña');
+            $table->string('password');
             $table->string('img',30);
             $table->rememberToken();
             $table->timestamps();

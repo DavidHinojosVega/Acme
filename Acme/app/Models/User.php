@@ -23,7 +23,7 @@ class User extends Authenticatable
         'tipo_de_acceso',
         'email',
         'email_verified_at',
-        'contraseña',
+        'password',
         'img'
     ];
 
